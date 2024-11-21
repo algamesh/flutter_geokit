@@ -50,8 +50,8 @@ class _GeoDataHomePageState extends State<GeoDataHomePage> {
             child: FlutterMap(
               mapController: _mapController,
               options: MapOptions(
-                center: LatLng(0, 0),
-                zoom: 2.0,
+                initialCenter: LatLng(0, 0),
+                initialZoom: 2.0,
               ),
               children: [
                 TileLayer(
@@ -179,7 +179,7 @@ class _GeoDataHomePageState extends State<GeoDataHomePage> {
             point: point,
             width: 80.0,
             height: 80.0,
-            builder: (ctx) => const Icon(Icons.location_on, color: Colors.red),
+            child: const Icon(Icons.location_on, color: Colors.red),
           ),
         );
       } else if (feature.geometry is GeoLineString) {
@@ -209,7 +209,7 @@ class _GeoDataHomePageState extends State<GeoDataHomePage> {
               point: point,
               width: 80.0,
               height: 80.0,
-              builder: (ctx) => const Icon(Icons.location_on, color: Colors.red),
+              child: const Icon(Icons.location_on, color: Colors.red),
             ),
           );
         }
