@@ -1,0 +1,82 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.buildlog/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.flutter/
+metadata
+build/
+example/build/
+flutter_*.png
+
+# Exclude pubspec.lock for packages (libraries). Include it for apps.
+pubspec.lock
+
+# Generated plugin registrant (Flutter-generated files for plugins)
+**/GeneratedPluginRegistrant.*
+
+# Platform-specific directories in example/ (if you have an example app)
+example/android/
+example/ios/
+example/macos/
+example/windows/
+example/linux/
+example/web/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Android Studio
+*.keystore
+!gradle-wrapper.jar
+
+# Xcode related files
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+
+# Web related
+.gh-pages
+web/assets/assets.dart
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup and Swap files
+*.bak
+*.old
+*.orig
+*.rej
+*.swo
+*.swp
+
+# Lock files
+*.lock
+
+# Other generated files
+.packages
+.metadata

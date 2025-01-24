@@ -1,0 +1,27 @@
+name: example
+description: "Example application for flutter_geokit."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_geokit:
+    path: ../
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  file_picker: ^5.2.4
+  archive: ^3.3.7
+  sqlite3_flutter_libs: ^0.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
