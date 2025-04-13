@@ -12,11 +12,6 @@ dependencies:
     sdk: flutter
   flutter_geokit:
     path: ../
-  flutter_map: ^7.0.2
-  latlong2: ^0.9.1
-  file_picker: ^5.2.4
-  archive: ^3.3.7
-  sqlite3_flutter_libs: ^0.5.6
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +20,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/sample.geojson

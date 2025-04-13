@@ -80,3 +80,5 @@ web/assets/assets.dart
 # Other generated files
 .packages
 .metadata
+
+pubspec.backup.yaml
