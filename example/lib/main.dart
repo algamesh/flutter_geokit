@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_geokit/flutter_geokit.dart';
 import 'package:maplibre/maplibre.dart';
 
-/// Entry point for the example application.
 void main() => runApp(const DemoApp());
 
 class DemoApp extends StatelessWidget {
@@ -17,11 +16,10 @@ class DemoApp extends StatelessWidget {
         initCenter: Position(-158.8000, -20.3000), // Cook Islands
         initZoom: 6.7,
         layers: [
-          ShapeLayerConfig(
+          const ShapeLayerConfig(
             geoJsonAsset: 'assets/sample.geojson',
-            sourceId: 'sample_source',
-            layerId: 'sample_layer',
-            paint: <String, Object>{
+            layerPrefix: 'sample',
+            basePaint: <String, Object>{
               'fill-color': '#ff5722',
               'fill-opacity': 0.6,
             },
