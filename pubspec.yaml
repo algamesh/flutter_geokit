@@ -13,7 +13,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  maplibre_gl: ^0.20.0
+  # maplibre_gl: ^0.20.0
+  maplibre: ^0.2.1
 
 dev_dependencies:
   flutter_test:
