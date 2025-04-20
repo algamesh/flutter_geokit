@@ -67,9 +67,9 @@ class _GeoJsonMapScreenState extends State<GeoJsonMapScreen> {
       appBar: AppBar(title: const Text('GeoShape Overlay Map')),
       body: GeoShapeOverlayMap(
         overlayConfigurations: overlayConfigurations,
-        onFeatureSelect: (overlayId, featureId) {
-          debugPrint('Selected feature: $featureId from overlay: $overlayId');
-        },
+        // onFeatureSelect: (overlayId, featureId) {
+        //   debugPrint('Selected feature: $featureId from overlay: $overlayId');
+        // },
       ),
     );
   }
